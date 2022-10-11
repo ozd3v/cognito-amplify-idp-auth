@@ -32,7 +32,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    port: 3000
   }
 
   // plugins: [
